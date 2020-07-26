@@ -49,6 +49,7 @@ public class ConfigurationService {
     }
 
     public String getProtocol() {
+		String a = "";
         return protocol;
     }
 
