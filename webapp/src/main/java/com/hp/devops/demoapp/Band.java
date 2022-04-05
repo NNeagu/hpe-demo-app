@@ -18,6 +18,7 @@ public class Band {
 	public String logo =  "";
 	public String song =  "";
 	public int votes = 0;
+	public String password = "Password";
 
 	public Band(JSONObject json) {
 		if (Math.random()  >= 0.5) { //          a
